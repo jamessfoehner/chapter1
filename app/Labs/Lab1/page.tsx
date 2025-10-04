@@ -1,70 +1,28 @@
-export default function Lab1() {
+export default function Labs() {
   return (
-    <div id="wd-lab1">
-      <h2>Lab 1</h2>
-      <h3>HTML Examples</h3>
+    <div id="wd-labs">
+      <h1>Lab Exercises - Landing Page</h1>
+      <h2>Your Full Name - Section XYZ</h2>
 
-      {/* Headings */}
-      <div id="wd-h-tag">
-        <h4>Heading Tags</h4>
-        <h1>Heading 1</h1>
-        <h2>Heading 2</h2>
-        <h3>Heading 3</h3>
-      </div>
+      <ul>
+        <li><a href="/Labs/Lab1">Lab 1 - Introduction</a></li>
+        <li><a href="/Labs/Lab2">Lab 2 - CSS & Styling</a></li>
+      </ul>
 
-      {/* Paragraphs */}
-      <div id="wd-p-tag">
-        <h4>Paragraphs</h4>
-        <p>This is the first paragraph.</p>
-        <p>This is the second paragraph with some more text.</p>
-        <p>This is the third paragraph.</p>
-      </div>
+      <h3>Applications</h3>
+      <ul>
+        <li><a href="/">Kambaz Application (Main Landing Page)</a></li>
+      </ul>
 
-      {/* Ordered List */}
-      <div id="wd-list-ordered">
-        <h4>Ordered List</h4>
-        <ol>
-          <li>Step 1</li>
-          <li>Step 2</li>
-          <li>Step 3</li>
-        </ol>
-      </div>
-
-      {/* Unordered List */}
-      <div id="wd-list-unordered">
-        <h4>Unordered List</h4>
-        <ul>
-          <li>Item A</li>
-          <li>Item B</li>
-          <li>Item C</li>
-        </ul>
-      </div>
-
-      {/* Table */}
-      <div id="wd-tables">
-        <h4>Table Example</h4>
-        <table border={1} width="100%">
-          <thead>
-            <tr>
-              <th>Quiz</th>
-              <th>Topic</th>
-              <th>Date</th>
-              <th>Grade</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>Q1</td><td>HTML</td><td>2/3/21</td><td>85</td></tr>
-            <tr><td>Q2</td><td>CSS</td><td>2/10/21</td><td>90</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      {/* Anchor */}
-      <h4>Links</h4>
-      <p>
-        Visit <a href="https://www.lipsum.com" target="_blank">Lipsum</a> for dummy text. <br />
-        My code repo: <a href="https://github.com/YOUR_GITHUB_REPO" id="wd-github" target="_blank">GitHub</a>
-      </p>
+      <h3>Source Code Repositories</h3>
+      <ul>
+        <li><a href="https://github.com/jamessfoehner/kambaz-next-js" target="_blank">
+          Kambaz Project Repository
+        </a></li>
+        <li><a href="https://github.com/jamessfoehner/labs-next-js" target="_blank">
+          Labs Repository
+        </a></li>
+      </ul>
     </div>
   );
 }

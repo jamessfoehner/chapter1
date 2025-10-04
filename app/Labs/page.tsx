@@ -4,7 +4,7 @@ export default function Labs() {
   return (
     <div id="wd-labs">
       <h1>Labs</h1>
-      <p><b>Melisa Devedzic</b> – Section [YOUR SECTION HERE]</p>
+      <p><b>James Foehner</b> – CS4550</p>
 
       <h3>Assignments</h3>
       <ul>
@@ -20,7 +20,7 @@ export default function Labs() {
 
       <h3>Source Code</h3>
       <ul>
-        <li><a href="https://github.com/YOUR_GITHUB_REPO" target="_blank">GitHub Repository</a></li>
+        <li><a href="https://github.com/jamessfoehner/chapter1" target="_blank">GitHub Repository</a></li>
       </ul>
     </div>
   );
